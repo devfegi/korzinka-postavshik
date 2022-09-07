@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>Стартовая страница</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--personal">
+			<div class="header__content">
+				<a href="#" class="header__logo">
+					<img class="header__logo-desktop" src="img/svg/logo-2.svg" alt="logo" />
+					<img class="header__logo-mob" src="img/svg/logo-mob-2.svg" alt="logo" />
+				</a>
+		
+				<div class="header__right">
+					<div class="header__lang lang">
+						<ol>
+							<li class="lang__item lang__item--current">
+								<a href="#" class="lang__link">Ру</a>
+								<ol>
+									<li class="lang__item">
+										<a href="#" class="lang__link">Uz</a>
+									</li>
+								</ol>
+							</li>
+						</ol>
+					</div>
+					<div class="header__personal personal">
+						<div class="personal__icon">
+							<img src="img/svg/smile.svg" alt="icon" />
+						</div>
+						<div class="personal__links">
+							<a href="#" class="personal__link">Мои заявки</a>
+							<a href="#" class="personal__link">Настройки профиля</a>
+							<a href="#" class="personal__link">Выход</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="information">
+				<div class="container">
+					<a href="#back" class="back popup-link">Назад</a>
+
+					<div class="top">
+						<h1 class="title">Информация о товаре</h1>
+						<div class="step">Шаг 1 из 3</div>
+					</div>
+
+					<div class="caption">
+						<h4 class="subtitle">Основная информация</h4>
+						<p class="desc">Вся информация является обязательной для заполнения</p>
+					</div>
+
+					<form action="#" class="information__form">
+						<div class="information__left">
+							<div class="form-file">
+								<div class="form-file__items">
+									<div class="form-file__img form-file__img--main">
+										<img src="img/popup-1.jpg" alt="image" />
+										<button type="button" class="form-file__close">
+											<img src="img/svg/close-file.svg" alt="icon" />
+										</button>
+									</div>
+									<div class="form-file__img">
+										<img src="img/popup-1.jpg" alt="image" />
+										<button type="button" class="form-file__close">
+											<img src="img/svg/close-file.svg" alt="icon" />
+										</button>
+									</div>
+									<div class="form-file__item">
+										<label class="form-file__label" for="upload-photo">
+											<img src="img/svg/file.svg" alt="icon" />
+										</label>
+										<input id="upload-photo" name="identifications" type="file" class="form-file__input">
+									</div>
+								</div>
+								<div class="form-file__text form-file__text--dnone">
+									Загрузите фотографию товара в формате jpg / png / HEIC, размер до 5мб. Основное фото помечается
+									красной рамкой
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-group__input" placeholder="Наименование товара">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-group__input" placeholder="Бренд">
+							</div>
+							<div class="form-group">
+								<ul class="form-group__dropdown dropdown">
+									<li class="dropdown__current">
+										<span class="dropdown__desc">Выберите категорию товара</span>
+										<ul class="dropdown__list">
+											<li>
+												<label class="checkbox">
+													<input type="checkbox">
+													<span></span>
+													<i>Для бодрого утра</i>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox">
+													<span></span>
+													<i>К обеду</i>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox">
+													<span></span>
+													<i>Бодрящий завтрак</i>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox">
+													<span></span>
+													<i>Сладости</i>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox">
+													<span></span>
+													<i>Заряд витаминов</i>
+												</label>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="choose">
+								<div class="choose__item">
+									Для бодрого утра
+									<button type="button" class="choose__close">
+										<img src="img/svg/close.svg" alt="icon" />
+									</button>
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-group__input" placeholder="Вес товара">
+							</div>
+							<div class="form-box">
+								<div class="form-group">
+									<input type="text" class="form-group__input" placeholder="0.00 сум">
+								</div>
+								<div class="form-group form-group__calendar">
+									<input type="text" class="form-group__input" placeholder="Дата поставки">
+								</div>
+							</div>
+							<div class="caption">
+								<h4 class="subtitle">Дополнительная информация</h4>
+								<p class="desc">Информация для тут текст для чего</p>
+							</div>
+							<div class="form-file">
+								<div class="form-file__item">
+									<label class="form-file__label" for="upload-photo">
+										<img src="img/svg/file.svg" alt="icon" />
+									</label>
+									<input id="upload-photo" name="barcode" type="file" class="form-file__input">
+								</div>
+								<div class="form-file__box">
+									<div class="form-file__subtitle">Штрих-код</div>
+									<div class="form-file__text">
+										Он поможет идентифицировать и найти Ваш продукт по базе. Формат jpg, размер до 5мб
+									</div>
+								</div>
+							</div>
+							<div class="form-file">
+								<div class="form-file__item">
+									<label class="form-file__label" for="upload-photo">
+										<img src="img/svg/file.svg" alt="icon" />
+									</label>
+									<input id="upload-photo" name="certificates" type="file" class="form-file__input">
+								</div>
+								<div class="form-file__box">
+									<div class="form-file__subtitle">Сертификаты и лицензии</div>
+									<div class="form-file__text">
+										Это добавит доверие к вашей продукции при рассмотрении на роль поставщика. Формат jpg / png / pdf,
+										размер до 5мб
+									</div>
+								</div>
+							</div>
+							<div class="information__range range-information">
+								<div class="range-information__top">
+									<div class="range-information__desc">Указать долю рынка</div>
+									<div class="range-information__value" id="slider-range-value"></div>
+								</div>
+								<div class="range-information__slider" id="slider"></div>
+							</div>
+							<div class="information__checkbox">
+								<label class="checkbox">
+									<input type="checkbox">
+									<span></span>
+									<i>Мое обращение содержит коммерческое предложение о сотрудничестве по производству товаров СТМ сети
+										korzinka.uz</i>
+								</label>
+
+								<label class="checkbox">
+									<input type="checkbox">
+									<span></span>
+									<i>Я раньше сотрудничал с Korzinka.uz</i>
+								</label>
+							</div>
+							<div class="buttons">
+								<a href="#" class="btn  buttons__btn buttons__btn--back">Назад</a>
+								<a href="#" class="btn btn--disabled buttons__btn">Продолжить</a>
+							</div>
+						</div>
+						<div class="information__right">
+							<div class="information__content">
+								<div class="information__header">
+									<div class="information__img">
+										<img src="img/popup-1.jpg" alt="image" />
+									</div>
+									<div class="information__price">29 990</div>
+								</div>
+
+								<div class="information__body">
+									<div class="information__subject">Пастилки Te Gusto Вишня, банан, мандарин</div>
+									<div class="information__items">
+										<div class="information__item">
+											<div class="information__label">Бренд:</div>
+											<div class="information__value">Золотая корона</div>
+										</div>
+										<div class="information__item">
+											<div class="information__label">Категория:</div>
+											<div class="information__value">Сладости</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer-info">
+			<div class="container">
+				<div class="footer-info__top">
+					<div class="footer-info__left">
+						<div class="footer-info__logo">
+							<img src="img/svg/logo-footer.svg" alt="icon" />
+						</div>
+						<div class="footer-info__desc">Odatdagidan yaxshi</div>
+					</div>
+					<div class="footer-info__socials">
+						<a href="#" target="_blank">
+							<img src="img/svg/telegram.svg" alt="icon" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/svg/facebook.svg" alt="icon" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/svg/youtube.svg" alt="icon" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/svg/instagram.svg" alt="icon" />
+						</a>
+					</div>
+				</div>
+		
+				<div class="footer-info__lists">
+					<ul class="footer-info__list">
+						<li><a href="#" class="footer-info__link">Каталог</a></li>
+						<li><a href="#" class="footer-info__link">Программа лояльности</a></li>
+						<li><a href="#" class="footer-info__link">Обратная связь</a></li>
+						<li><a href="#" class="footer-info__link">Магазины</a></li>
+					</ul>
+		
+					<ul class="footer-info__list">
+						<li><a href="#" class="footer-info__link">О нас</a></li>
+						<li><a href="#" class="footer-info__link">Новости</a></li>
+						<li><a href="#" class="footer-info__link">Карьера</a></li>
+						<li><a href="#" class="footer-info__link">Поставщикам</a></li>
+						<li><a href="#" class="footer-info__link">Недвижимость</a></li>
+						<li><a href="#" class="footer-info__link">Использование материалов</a></li>
+					</ul>
+				</div>
+		
+				<div class="footer-info__bottom">
+					<div class="footer-info__box">
+						<div class="footer-info__info">
+							<a href="tel:+998781401414">+998 (78) 140-14-14</a>
+							<p>Горячая линия</p>
+						</div>
+						<div class="footer-info__info">
+							<a href="#">Политика&nbsp;конфиденциальности</a>
+							<p>© Anglesey Food 1996-2022</p>
+						</div>
+					</div>
+					<div class="footer-info__by">Дизайн — <a href="#" target="_blank">MAX</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="information1" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<div class="popup__top">
+					<div class="popup__title title">Подробная информация</div>
+					<button class="popup__close close-popup">
+						<img src="img/svg/close.svg" alt="icon" />
+					</button>
+				</div>
+				<div class="popup__box">
+					<div class="popup__left">
+						<div class="swiper popup__swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div thumbsSlider="" class="swiper popup__swiper2">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="popup__img">
+										<img src="img/popup-1.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="popup__right">
+						<div class="popup__inner">
+							<div class="popup__subtitle">Основная информация</div>
+							<div class="popup__items">
+								<div class="popup__item">
+									<div class="popup__label">Бернд</div>
+									<div class="popup__value">Золотая корона</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Вы являетесь</div>
+									<div class="popup__value">Производителем</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Условия поставки</div>
+									<div class="popup__value">Доставка до магазина</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Наименование товара</div>
+									<div class="popup__value">Пастилки Te Gusto Вишня фруктовые</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Предсатвленность</div>
+									<div class="popup__value">Makro, Carrefour</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Особые примечания</div>
+									<div class="popup__value">Корзинка супер крутой мaгазин! Хожу сюда уже 10 лет и не перестану ходить!
+									</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Категория товара</div>
+									<div class="popup__value">Сладость</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Регионы</div>
+									<div class="popup__value">Весь Узбекистан</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Дата подачи заявки</div>
+									<div class="popup__value">12.12.22</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Сумма</div>
+									<div class="popup__value">29 990 сум</div>
+								</div>
+								<div class="popup__item">
+									<div class="popup__label">Условия оплаты</div>
+									<div class="popup__value">Консигнация</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="popup__inner">
+							<div class="popup__subtitle">Статус заявки</div>
+							<div class="popup__items">
+								<div class="popup__item">
+									<div class="popup__label">Статус</div>
+									<div class="popup__value status status--rejected">Отказан</div>
+								</div>
+								<div class="popup__item popup__item--w100">
+									<div class="popup__label">Ответ от Корзинки</div>
+									<div class="popup__value">
+										К сожалению, должны сообщить о невозможности сотрудничества между нашими
+										компаниями</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="back" class="popup">
+		<div class="popup__body">
+			<div class="popup__content popup__content--back">
+				<div class="popup__title popup__title--back">Выйти из заявки?</div>
+	
+				<div class="popup__holder">
+					<div class="popup__desc">Все данные о загруженном товаре будут удалены</div>
+					<div class="buttons">
+						<a href="#" class="btn buttons__btn">Вернуться в заявку</a>
+						<a href="#" class="btn buttons__btn buttons__btn--back">Выйти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
